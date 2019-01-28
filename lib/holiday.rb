@@ -87,7 +87,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.map do |holiday_name, supplies|
       supplies.include?("BBQ") ? holiday_name : nil
     end
-  end.flatten.compact   #compact takes out the nil, flatten to put into 1 array
+  end.flatten.compact   #compact takes out the nil, flatten to put into one array
 end
 
 
